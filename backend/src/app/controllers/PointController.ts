@@ -60,7 +60,7 @@ class PointController {
             await connection('itemsPoints').insert(itemsPoints)
 
             connection .destroy();      
-            return response.status(401).json({ 
+            return response.status(201).json({ 
                 id: pointsInsertedsIds[0], 
                 ...serializatedPointDataRequest 
             });
