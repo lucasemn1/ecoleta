@@ -2,3 +2,4 @@ node_modules/
 yarn*
 *.sqlite
 *.sqlite3
+src/public/uploads/*
